@@ -1,2 +1,1 @@
-# Trabalho-Site-Jogo-Front-
-Trabalho para o conexão CEEP.
+Todos os direitos reservados a Konami
