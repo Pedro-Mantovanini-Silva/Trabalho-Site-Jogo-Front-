@@ -9,6 +9,7 @@ body {
     background-position: center;
     background-color: #ffffff;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgba(0, 0, 0, 0.534);
     color: #e4fff5;
