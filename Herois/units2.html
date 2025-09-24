@@ -37,8 +37,9 @@
                     </button>
 
                     <script>
-                        const meuAudio = document.getElementById('Macaco')
-                        const botaotocarSom
+                        const meuAudio = document.getElementById('Macaco');
+                        const botaoTocarSom = document.getElementById('tocarSOm');
+                        botaoTocarSom.addEventListener('click', function() {meuAudio.play();});
                     </script>
                 </div>
             </li>
@@ -220,6 +221,7 @@
                                 a hero, emphasizing redemption and fatherhood.</p>
                         </div>
                     </div>
+            </ul>
     </div>
     <script src="script.js"></script>
 </body>
