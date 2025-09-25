@@ -32,6 +32,19 @@ a { text-decoration: none; }
     margin: 20px 10px; 
 }
 
+ button {
+    background-color: rgba(109, 0, 0, 0);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+     display: inline-block;
+     font-size: 20px;
+     cursor: pointer;
+    offset-position: auto;
+}
+
 .boomerang {
     width: 20px;
 }
