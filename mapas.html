@@ -7,6 +7,7 @@
     <title>Bloons Tower Defense</title>
     <link rel="stylesheet" href="style.css">
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    
 </head>
 
 <body>
@@ -16,14 +17,26 @@
             <ul>
                 <li><a href="./units.html">Units</a></li>
                 <li><a href="./index.html">Home</a></li>
+                <li><a href="./Herois/units2.html">Herois</a></li>
             </ul>
         </nav>
     </header>
     <main>
+        <h3>Mapas</h3>
         <section id="mapa">
-            <h3>Mapas</h3>
-            <div class="card-mapa">
-                <h2>Monkey Meadow</h2>
+            <div class="card-mapa" id="aumnenta">
+                <h2>Campo dos Símios</h2>
+                <img src="./MonkeyMeadow_No_UI.jpg" id="imagi">
+            <script> 
+                const meadowmapa = document.getElementById("imagi");
+                meadowmapa.addEventListener("click", function(){meadowmapa.style.width = "auto"; meadowmapa.style.height = "400px";})
+                
+                
+                const divaumenta = document.getElementById("aumnenta");
+                divaumenta.addEventListener("click", function(){divaumenta.style.width = "auto"; divaumenta.style.height = "400px";})
+
+                
+            </script>
             </div>
         </section>
     </main>
