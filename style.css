@@ -101,10 +101,13 @@ section .card-mapa h2{
     border-radius: 8px;
     margin-bottom: 10px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-    background-image: url(/MonkeyMeadow_No_UI.jpg);
-    background-size: cover;
     width: 150px;
     height: 150px;
+}
+
+#imagi {
+    width: auto;
+    height: 120px;
 }
 
 .card h3 {
