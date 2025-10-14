@@ -20,6 +20,13 @@ a { text-decoration: none; }
     align-items: center;
 }
 
+.beginner {
+    width: 90px;
+    height: 90px;
+    
+    
+}
+
 .box { 
     width: 330px; 
     height: 300px; 

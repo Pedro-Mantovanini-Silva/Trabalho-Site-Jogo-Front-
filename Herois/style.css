@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Luckiest+Guy&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
 
-body {
+body { margin: 0; padding: 0; }
+ul { list-style: none; }
+a { text-decoration: none; }
+.container {
+    width: 100%;
+    height: 100vh;
     background-size: cover;
     background-position: center;
     background-color: #0549a1;
@@ -8,19 +13,15 @@ body {
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    margin: 0;
-    padding: 0; }
-
-
-ul { list-style: none; }
-a { text-decoration: none; }
-.container {
-    width: 100%;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+p{
+    font-size: 14px;
+}
+
 
 .box { 
     width: 350px; 
@@ -74,7 +75,7 @@ a { text-decoration: none; }
 
 .container {
     width: 100%;
-    height: 85vh;
+    height: 90vh;
     background-size: cover;
     background-position: center;
     background-color: #0549a1;
@@ -139,17 +140,19 @@ a { text-decoration: none; }
 
 body {
     font-family: 'Luckiest Guy', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-color: #0549a1;
+    background-image: radial-gradient(circle, rgba(0,0,0,0) 5%, rgba(0,0,0,0.9) 100%);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgba(0, 0, 0, 0.534);
     color: #e4fff5;
     line-height: 1.6;
-}
-
-header {
-    padding: 20px;
-    text-align: center;
-    color: white;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
@@ -206,6 +209,16 @@ section h2 {
     padding-bottom: 5px
 }
 
+section .card-mapa h2{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.534);
+    font-size: 0.9rem;
+    color: #ffffff;
+    margin-bottom: 15px;
+    border-bottom: unset;
+    padding-bottom: 5px;
+}
+
 .card {
     background: color #ffffff;
     padding: 15px;
@@ -213,6 +226,7 @@ section h2 {
     margin-bottom: 10px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05)
 }
+
 
 .card h3 {
     -webkit-text-stroke-width: 1px;
