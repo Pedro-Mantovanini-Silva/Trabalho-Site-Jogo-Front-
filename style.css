@@ -72,7 +72,7 @@ body {
     font-family: 'Luckiest Guy', Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url(bloonsimagebackground.png);
+    background-image: url("https://image.api.playstation.com/vulcan/ap/rnd/202401/2120/ec8c7c0861522b7de195ba75bb40dccf00df443fc5872ebe.png");
     background-size: cover;
     background-position: center;
     background-color: #ffffff;
